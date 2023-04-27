@@ -13,6 +13,12 @@ yarn prisma generate
 yarn dev
 ```
 
+.env:
+
+```
+DATABASE_URL="file:./dev.db"
+```
+
 This starts your app in development mode, rebuilding assets on file changes.
 
 ## Deployment
