@@ -13,7 +13,7 @@ yarn prisma generate
 yarn dev
 ```
 
-.env:
+Create ".env" file:
 
 ```
 DATABASE_URL="file:./dev.db"
