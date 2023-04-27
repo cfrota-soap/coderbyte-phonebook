@@ -7,7 +7,10 @@
 From your terminal:
 
 ```sh
-npm run dev
+yarn install
+yarn prisma db migrate dev
+yarn prisma db generate
+yarn dev
 ```
 
 This starts your app in development mode, rebuilding assets on file changes.
